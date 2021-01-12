@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  
+    #rock{
+        color:white;
+       
+    }
+    #paper{
+   color:white;   
+    }
+    #scisors{
+       color:white;
+    }  
+
+     .btn1{
+            background: red;
+        }
+        .btn2{
+            background: green;
+        }
+        .btn3{
+            background: yellow;
+        }
+        .btn4{
+            background:blue;
+        }
+    img{
+        width:50px;
+        height:50px;
+    }
+    .wholebox{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background:gray;
+        color: white;
+        position: absolute;
+       outline: none;
+        border:none;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+    }
+    body{
+        background: salmon;
+    }
+</style>
+</head>
+<body>
+<div class="wholebox">
+    <div id="container">
+    
+</div>
+<div id="container2">
+    
+</div>
+<div id="container3">
+    
+</div>
+</div>
+<div id="gameon" >
+    <h2 id="rock" onclick="rpsgame(this)" onclic="bot(this)"><img src="https://images.unsplash.com/photo-1505576457712-b769c0c0a354?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60" alt="">
+    rock</h2>
+    <h2 id="paper" onclick="rpsgame(this)" onclic="bot(this)"><img src="https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60" alt="">
+    paper</h2>
+    <h2 id=scisors onclick="rpsgame(this)" onclic="bot(this)"><img src="https://images.unsplash.com/photo-1586363052121-5ef0f5b1fdb1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60" alt=""> scisors</h2>
+</div>
+<script src="rockpaper.js"></script>
+
+    
+</body>
+</html>
